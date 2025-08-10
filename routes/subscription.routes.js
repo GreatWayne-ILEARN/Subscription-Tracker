@@ -5,7 +5,7 @@ import {createSubscription, getUserSubscription} from "../controllers/subscripti
 const subscriptionRouter = new Router();
 
 // BASIC CRUD operations
-subscriptionRouter.get('/', (req, res) => res.send({title: 'Get all Subscribe'}))
+subscriptionRouter.get('/', (req, res) => res.send({title: 'Get all Subscribers'}))
 
 subscriptionRouter.get('/id:', (req, res) => res.send({title: 'Get Subscription detail'}))
 
